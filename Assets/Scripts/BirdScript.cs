@@ -8,7 +8,7 @@ public class BirdScript : MonoBehaviour
     public float flapStrength;
     public LogicScript logic;
     public bool birdIsAlive = true;
-    public float offScreenThreshold = -10f; // Threshold for off-screen detection
+    public float offScreenThreshold = -6.5f; // Threshold for off-screen detection
 
     // Start is called before the first frame update
     void Start()
