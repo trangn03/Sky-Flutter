@@ -42,10 +42,4 @@ public class PipeSpawnScript : MonoBehaviour
 
         Instantiate(pipe, new Vector3(transform.position.x, Random.Range(lowestPoint, highestPoint), 0), transform.rotation);
     }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        logic.gameOver();
-        isGameActive = false;
-    }
 }

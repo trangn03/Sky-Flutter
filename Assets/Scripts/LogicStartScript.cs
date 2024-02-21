@@ -11,4 +11,9 @@ public class LogicStartScript : MonoBehaviour
     {
         SceneManager.LoadScene("Game Play");
     }
+
+    public void quitGame()
+    {
+        Application.Quit();
+    }
 }
