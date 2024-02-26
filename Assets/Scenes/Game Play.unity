@@ -494,6 +494,7 @@ MonoBehaviour:
   scoreText: {fileID: 148348395}
   gameOverScreen: {fileID: 1836249108}
   addScoreSound: {fileID: 701873158}
+  isGameActive: 1
 --- !u!4 &701873157
 Transform:
   m_ObjectHideFlags: 0
@@ -690,7 +691,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1180506826
 RectTransform:
   m_ObjectHideFlags: 0
@@ -707,7 +708,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -214.16225, y: 169.1586}
+  m_AnchoredPosition: {x: -214.16, y: 154}
   m_SizeDelta: {x: 798.9417, y: 191.2828}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1180506827
@@ -969,7 +970,6 @@ MonoBehaviour:
   spawnRate: 1.7
   heightOffset: 2.5
   logic: {fileID: 0}
-  isGameActive: 1
 --- !u!4 &1773558149
 Transform:
   m_ObjectHideFlags: 0
@@ -1066,7 +1066,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -214.16, y: -243}
+  m_AnchoredPosition: {x: -214.16, y: -203}
   m_SizeDelta: {x: 558.3226, y: 112.8571}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1816605624
@@ -1343,7 +1343,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -214.16, y: -56.429}
+  m_AnchoredPosition: {x: -214.16, y: -41.429}
   m_SizeDelta: {x: 558.3226, y: 112.8571}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1849523938

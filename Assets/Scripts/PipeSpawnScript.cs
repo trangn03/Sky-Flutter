@@ -9,21 +9,21 @@ public class PipeSpawnScript : MonoBehaviour
     private float timer = 0;
     public float heightOffset;
     public LogicScript logic;
-    public bool isGameActive = true;
 
-    // Start is called before the first frame update
     void Start()
     {
         spawnPipe();
         logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
     }
 
-    // Update is called once per frame
     void Update()
     {
+        if (!logic.isGameActive)
+            return;
+
         if (timer < spawnRate)
         {
-                timer = timer + Time.deltaTime;
+            timer = timer + Time.deltaTime;
         }
         else
         {
@@ -31,6 +31,7 @@ public class PipeSpawnScript : MonoBehaviour
             timer = 0;
         }
     }
+
     void spawnPipe()
     {
         float lowestPoint = transform.position.y - heightOffset;
