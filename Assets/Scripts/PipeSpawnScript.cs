@@ -21,20 +21,16 @@ public class PipeSpawnScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isGameActive) 
+        if (timer < spawnRate)
         {
-            if (timer < spawnRate)
-            {
                 timer = timer + Time.deltaTime;
-            }
-            else
-            {
-                spawnPipe();
-                timer = 0;
-            }
+        }
+        else
+        {
+            spawnPipe();
+            timer = 0;
         }
     }
-
     void spawnPipe()
     {
         float lowestPoint = transform.position.y - heightOffset;

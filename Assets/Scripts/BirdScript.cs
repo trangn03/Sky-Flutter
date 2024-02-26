@@ -22,12 +22,11 @@ public class BirdScript : MonoBehaviour
     {
         if (birdIsAlive)
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            if ((Input.GetKeyDown(KeyCode.Space)|| Input.GetKeyDown(KeyCode.UpArrow)))
             {
                 myRigidbody.velocity = Vector2.up * flapStrength;
             }
 
-            // Check if the bird's y position is below the off-screen threshold
             if (transform.position.y < offScreenThreshold)
             {
                 logic.gameOver();
