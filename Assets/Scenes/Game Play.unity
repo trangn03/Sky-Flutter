@@ -1043,7 +1043,7 @@ GameObject:
   - component: {fileID: 1816605625}
   - component: {fileID: 1816605624}
   m_Layer: 5
-  m_Name: Button (Legacy)
+  m_Name: Quit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1320,7 +1320,7 @@ GameObject:
   - component: {fileID: 1849523939}
   - component: {fileID: 1849523938}
   m_Layer: 5
-  m_Name: 'Button (Legacy) '
+  m_Name: Restart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1452,7 +1452,7 @@ GameObject:
   - component: {fileID: 1937117268}
   - component: {fileID: 1937117267}
   m_Layer: 5
-  m_Name: Play Again
+  m_Name: Quit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1531,7 +1531,7 @@ GameObject:
   - component: {fileID: 2119830426}
   - component: {fileID: 2119830425}
   m_Layer: 5
-  m_Name: Play Again
+  m_Name: Restart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
