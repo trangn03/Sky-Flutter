@@ -1,3 +1,5 @@
+// Script created by Trang Ngo
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

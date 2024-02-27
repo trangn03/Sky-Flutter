@@ -1,6 +1,10 @@
+// Script obtained from Game Maker's Toolkit
+// https://youtu.be/XtQMytORBmM?si=B7xiQyCWHa_6jaqU
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class BirdScript : MonoBehaviour
 {
@@ -22,11 +26,13 @@ public class BirdScript : MonoBehaviour
     {
         if (birdIsAlive)
         {
+            // I added the arrow up key to the condition
             if ((Input.GetKeyDown(KeyCode.Space)|| Input.GetKeyDown(KeyCode.UpArrow)))
             {
                 myRigidbody.velocity = Vector2.up * flapStrength;
             }
 
+            // I added this statement to check if the bird is off-screen
             if (transform.position.y < offScreenThreshold)
             {
                 logic.gameOver();

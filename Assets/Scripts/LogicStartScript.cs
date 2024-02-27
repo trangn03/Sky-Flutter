@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+// Script created by Trang Ngo
 public class LogicStartScript : MonoBehaviour
 {
     [SerializeField] AudioSource sound;
