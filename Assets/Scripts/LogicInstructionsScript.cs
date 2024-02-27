@@ -10,4 +10,9 @@ public class LogicInstructionsScript : MonoBehaviour
     {
         SceneManager.LoadScene("Begin Play");
     }
+
+    public void playGame()
+    {
+        SceneManager.LoadScene("Game Play");
+    }
 }

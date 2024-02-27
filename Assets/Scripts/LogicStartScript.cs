@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class LogicStartScript : MonoBehaviour
 {
+    [SerializeField] AudioSource sound;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,5 +23,15 @@ public class LogicStartScript : MonoBehaviour
     public void quitGame()
     {
         Application.Quit();
+    }
+
+    public void soundOn()
+    {
+        sound.Play();
+    }
+
+    public void soundOff()
+    {
+        sound.Stop();
     }
 }
